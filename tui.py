@@ -71,3 +71,33 @@ def confirm_visualise_data_choice(choice):
         print("\nYou selected submenu option C - Most Popular Month by Park")
     else:
         print("\nInvalid submenu choice. Please try again.")
+
+def get_park_name():
+    park_name = input("\nEnter the park name: ")
+    return park_name
+
+def display_reviews_by_park(park_name, reviews):
+    if len(reviews) == 0:
+        print(f"\nNo reviews found for {park_name}.")
+    else:
+        print(f"\nReviews for {park_name}: ")
+
+        for review in reviews:
+            print(review)
+
+def get_reviewer_location():
+    location = input("\nEnter the reviewer location: ")
+    return location
+
+def display_review_count_result(park_name, reviewer_location, review_count):
+    print(f"\n{park_name} has {review_count} reviews from {reviewer_location}.")
+
+def get_year():
+    year = input("\nEnter the year: ")
+    return year
+
+def display_average_score_result(park_name, year, average_score):
+    if average_score is None:
+        print(f"\nNo reviews found for {park_name} in {year}.")
+    else:
+        print(f"\nThe average rating for {park_name} in {year} is {average_score:.2f}.")
