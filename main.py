@@ -1,5 +1,6 @@
 import tui
 import process
+import visual
 
 def main():
     tui.display_title()
@@ -39,6 +40,20 @@ def main():
             tui.display_visualise_data_menu()
             submenu_choice = tui.get_submenu_choice()
             tui.confirm_visualise_data_choice(submenu_choice)
+
+            if submenu_choice == "A":
+                park_counts = process.get_review_counts_by_park(reviews)
+                visual.plot_review_counts_by_park(park_counts)
+
+            elif submenu_choice == "B":
+                park_name = tui.get_park_name()
+                top_locations = process.get_top_10_locations_by_average_rating(reviews, park_name)
+                visual.plot_top_10_locations(top_locations, park_name)
+
+            elif submenu_choice == "C":
+                park_name = tui.get_park_name()
+                monthly_averages = process.get_monthly_average_ratings_by_park(reviews, park_name)
+                visual.plot_monthly_average_ratings(monthly_averages, park_name)
 
         if user_choice == "X":
             break

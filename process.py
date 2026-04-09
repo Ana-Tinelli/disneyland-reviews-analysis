@@ -61,3 +61,103 @@ def get_average_score_by_park_and_year(data, park_name, year):
         return None
     return total_score / review_count
 
+def get_review_counts_by_park(data):
+    park_counts = {}
+
+    for review in data:
+        park_name = review[4].strip()
+
+        if park_name in park_counts:
+            park_counts[park_name] +=1
+        else:
+            park_counts[park_name] = 1
+    return park_counts
+
+def get_top_10_locations_by_average_rating(data, park_name):
+    location_ratings = {}
+
+    user_park = park_name.strip().lower().replace(" ", "_")
+
+    for review in data:
+        park_from_csv = review[4].strip().lower()
+        location = review[3].strip()
+        rating = int(review[1])
+
+        if park_from_csv == user_park:
+            if location in location_ratings:
+                location_ratings[location].append(rating)
+            else:
+                location_ratings[location] = [rating]
+
+    average_ratings = []
+
+    for location, ratings in location_ratings.items():
+        average_score = sum(ratings) / len(ratings)
+        average_ratings.append((location, average_score))
+
+    average_ratings.sort(key=lambda item: item[1], reverse=True)
+
+    return average_ratings[:10]
+
+def get_monthly_average_ratings_by_park(data, park_name):
+    month_ratings = {
+        "Jan": [],
+        "Feb": [],
+        "Mar": [],
+        "Apr": [],
+        "May": [],
+        "Jun": [],
+        "Jul": [],
+        "Aug": [],
+        "Sep": [],
+        "Oct": [],
+        "Nov": [],
+        "Dec": []
+    }
+
+    month_map = {
+        "01": "Jan",
+        "02": "Fev",
+        "03": "Mar",
+        "04": "Apr",
+        "05": "May",
+        "06": "Jun",
+        "07": "Jul",
+        "08": "Aug",
+        "09": "Sep",
+        "10": "Oct",
+        "11": "Nov",
+        "12": "Dec"
+    }
+
+    user_park = park_name.strip().lower().replace(" ", "_")
+
+    for review in data:
+        park_from_csv = review[4].strip().lower()
+        year_month = review[2].strip()
+        rating = int(review[1])
+
+        if park_from_csv == user_park:
+            parts = year_month.split("-")
+
+            if len(parts) == 2:
+                 month_number = parts[1]
+
+                 if month_number in month_map:
+                     month_name = month_map[month_number]
+                     month_ratings[month_name].append(rating)
+
+    monthly_averages = {}
+
+    for month, ratings in month_ratings.items():
+        if len(ratings) > 0:
+            monthly_averages[month] = sum(ratings) / len(ratings)
+        else:
+            monthly_averages[month] = 0
+
+    return monthly_averages
+
+
+
+
+
