@@ -1,16 +1,30 @@
-# This is a sample Python script.
+import tui
+import process
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def main():
+    tui.display_title()
 
+    reviews = process.load_reviews_from_csv("disneyland_reviews.csv")
+    tui.display_dataset_loaded_message(len(reviews))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    while True:
+        tui.display_main_menu()
+        user_choice = tui.get_user_menu_choice()
+        tui.confirm_menu_choice(user_choice)
 
+        if user_choice == "A":
+            tui.display_view_data_menu()
+            submenu_choice = tui.get_submenu_choice()
+            tui.confirm_view_data_choice(submenu_choice)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+        elif user_choice == 'B':
+            tui.display_visualise_data_menu()
+            submenu_choice = tui.get_submenu_choice()
+            tui.confirm_visualise_data_choice(submenu_choice)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+        if user_choice == "X":
+            break
+
+if __name__ == "__main__":
+    main()
+
