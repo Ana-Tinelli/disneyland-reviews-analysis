@@ -157,6 +157,70 @@ def get_monthly_average_ratings_by_park(data, park_name):
 
     return monthly_averages
 
+def get_average_score_per_park_by_location(data):
+    park_location_ratings = {}
+
+    for review in data:
+        park_name = review[4].strip()
+        location =review[3].strip()
+        rating = int(review[1])
+
+        if park_name not in park_location_ratings:
+            park_location_ratings[park_name] = {}
+
+        if location not in park_location_ratings[park_name]:
+            park_location_ratings[park_name] [location] = []
+
+        park_location_ratings[park_name] [location].append(rating)
+
+    average_scores = {}
+
+    for park_name, locations in park_location_ratings.items():
+        average_scores[park_name] = {}
+
+        for location, ratings in locations.items():
+            average_scores[park_name] [location] = sum(ratings) / len(ratings)
+
+    return average_scores
+
+def get_export_data_by_park(data):
+    park_data = {}
+
+    for review in data:
+        park_name = review[4].strip()
+        rating = int(review[1])
+        country = review[3].strip()
+
+        if park_name not in park_data:
+            park_data[park_name] = {
+                "number_of_reviews": 0,
+                "number_of_positive_reviews": 0,
+                "total_score": 0,
+                "countries": set()
+            }
+        park_data[park_name]["number_of_reviews"] += 1
+        park_data[park_name]["total_score"] += rating
+
+        if rating >=4:
+            park_data[park_name]["number_of_positive_reviews"] += 1
+
+        park_data[park_name]["countries"].add(country)
+
+    export_data = []
+
+    for park_name, info in park_data.items():
+        average_score = info["total_score"] /info["number_of_reviews"]
+
+        export_data.append({
+            "park_name": park_name,
+            "number_of_reviews": info["number_of_reviews"],
+            "number_of_positive_reviews": info["number_of_positive_reviews"],
+            "average_review_score": round(average_score, 2),
+            "number_of_countries": len(info["countries"])
+        })
+
+    return export_data
+
 
 
 

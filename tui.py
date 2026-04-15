@@ -14,6 +14,7 @@ def display_main_menu():
     print("\nPlease enter the letter which corresponds with your desired menu choice:")
     print("   [A] View Data")
     print("   [B] Visualise Data")
+    print("   [C] Export Data")
     print("   [X] Exit")
 
 def get_user_menu_choice():
@@ -26,6 +27,9 @@ def confirm_menu_choice(choice):
 
     elif choice == "B":
         print("\nYou have chosen option B - Visualise Data")
+
+    elif choice == "C":
+        print("\nYou have chosen option C - Export Data")
 
     elif choice == "X":
         print("\nYou have chosen option X - Exit")
@@ -101,3 +105,36 @@ def display_average_score_result(park_name, year, average_score):
         print(f"\nNo reviews found for {park_name} in {year}.")
     else:
         print(f"\nThe average rating for {park_name} in {year} is {average_score:.2f}.")
+
+def display_average_score_per_park_by_location(average_scores):
+    print("\nAverage score per park by reviewer location:\n")
+
+    for park_name, locations in average_scores.items():
+        print(park_name)
+
+        for location, average_score in locations. items():
+            print(f"  {location}: {average_score:.2f}")
+
+        print()
+
+def display_export_menu():
+    print("\nPlease select an export format:")
+    print("   [A] TXT")
+    print("   [B] CSV")
+    print("   [C] JSON")
+
+def confirm_export_choice(choice):
+    if choice == "A":
+        print("\nYou selected TXT export.")
+    elif choice == "B":
+        print("\nYou selected CSV export.")
+    elif choice == "C":
+        print("\nYou selected JSON export.")
+    else:
+        print("\nInvalid export choice. Please try again.")
+
+def display_export_success_message(file_name):
+    print(f"\nData Exported successfully to {file_name}.")
+
+
+

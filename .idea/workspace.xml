@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Completed Section B tasks 7 to 9">
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Completed Section C tasks 10 to 12">
+      <change afterPath="$PROJECT_DIR$/export.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tui.py" beforeDir="false" afterPath="$PROJECT_DIR$/tui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
     "Python.Task_1.executor": "Run",
     "Python.Task_4.executor": "Run",
     "Python.Task_5.executor": "Run",
+    "Python.export.executor": "Run",
     "Python.lecture.executor": "Run",
     "Python.main.executor": "Run",
     "Python.process.executor": "Run",
@@ -184,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775751473500</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Completed Section C tasks 10 to 12">
+      <option name="closed" value="true" />
+      <created>1775770092802</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775770092802</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +212,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="Completed Section A tasks 1 to 6" />
     <MESSAGE value="Completed Section B tasks 7 to 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Section B tasks 7 to 9" />
+    <MESSAGE value="Completed Section C tasks 10 to 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Section C tasks 10 to 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

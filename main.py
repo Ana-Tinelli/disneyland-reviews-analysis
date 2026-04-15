@@ -1,6 +1,7 @@
 import tui
 import process
 import visual
+import export
 
 def main():
     tui.display_title()
@@ -35,6 +36,9 @@ def main():
                 average_score = process.get_average_score_by_park_and_year(reviews, park_name, year)
                 tui.display_average_score_result(park_name, year, average_score)
 
+            elif submenu_choice == "D":
+                average_scores = process.get_average_score_per_park_by_location(reviews)
+                tui.display_average_score_per_park_by_location(average_scores)
 
         elif user_choice == 'B':
             tui.display_visualise_data_menu()
@@ -55,8 +59,32 @@ def main():
                 monthly_averages = process.get_monthly_average_ratings_by_park(reviews, park_name)
                 visual.plot_monthly_average_ratings(monthly_averages, park_name)
 
-        if user_choice == "X":
+        elif user_choice == "C":
+            tui.display_export_menu()
+            export_choice = tui.get_submenu_choice()
+            tui.confirm_export_choice(export_choice)
+
+            export_data = process.get_export_data_by_park(reviews)
+
+            if export_choice == "A":
+                txt_exporter = export.TXTExporter(export_data)
+                txt_exporter.export("park_export.txt")
+                tui.display_export_success_message("park_export.txt")
+
+            elif export_choice == "B":
+                csv_exporter = export.CSVExporter(export_data)
+                csv_exporter.export("park_export.csv")
+                tui.display_export_success_message("park_export.csv")
+
+            elif export_choice == "C":
+                json_exporter = export.JSONExporter(export_data)
+                json_exporter.export("park_export.json")
+                tui.display_export_success_message("park_export.json")
+
+
+        elif user_choice == "X":
             break
+
 
 if __name__ == "__main__":
     main()
