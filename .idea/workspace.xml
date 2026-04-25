@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Completed Section C tasks 10 to 12">
-      <change afterPath="$PROJECT_DIR$/export.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of an if...else statement.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/task_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tui.py" beforeDir="false" afterPath="$PROJECT_DIR$/tui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_6/Task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/university_tasks/week_6/Task_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_6/Task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/university_tasks/week_6/Task_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_6/Task_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/university_tasks/week_6/Task_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_6/Task_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/university_tasks/week_6/Task_5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +70,10 @@
     "Python.main.executor": "Run",
     "Python.process.executor": "Run",
     "Python.task5.executor": "Run",
+    "Python.task_1.executor": "Run",
+    "Python.task_2.executor": "Run",
+    "Python.task_3.executor": "Run",
+    "Python.task_4.executor": "Run",
     "Python.test1.executor": "Run",
     "Python.test2.executor": "Run",
     "Python.test3.executor": "Run",
@@ -91,6 +96,12 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_1\input" />
+      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -194,7 +205,87 @@
       <option name="project" value="LOCAL" />
       <updated>1775770092802</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Completed Section D task 14 OOP export feature.">
+      <option name="closed" value="true" />
+      <created>1776264121460</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1776264121460</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added code to read user input.">
+      <option name="closed" value="true" />
+      <created>1777067449423</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1777067449423</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added code to demonstrate the use of different data types.&quot;.">
+      <option name="closed" value="true" />
+      <created>1777100954673</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1777100954673</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added code to display an ASCII robot with dynamic eyes.">
+      <option name="closed" value="true" />
+      <created>1777100981529</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1777100981529</updated>
+    </task>
+    <task id="LOCAL-00016" summary="move from file">
+      <option name="closed" value="true" />
+      <created>1777101657411</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1777101657411</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated code to display a longer multi-line message.">
+      <option name="closed" value="true" />
+      <created>1777101984393</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1777101984393</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated code to display a message with escape characters.">
+      <option name="closed" value="true" />
+      <created>1777102300970</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1777102300970</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added code to display an ASCII art robot">
+      <option name="closed" value="true" />
+      <created>1777102398666</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1777102398666</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added code to demonstrate the use of an if statement">
+      <option name="closed" value="true" />
+      <created>1777103034149</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1777103034149</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added code to demonstrate the use of an if...else statement.">
+      <option name="closed" value="true" />
+      <created>1777103294725</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1777103294725</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,13 +304,23 @@
     <MESSAGE value="Completed Section A tasks 1 to 6" />
     <MESSAGE value="Completed Section B tasks 7 to 9" />
     <MESSAGE value="Completed Section C tasks 10 to 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Section C tasks 10 to 12" />
+    <MESSAGE value="Completed Section D task 14 OOP export feature." />
+    <MESSAGE value="added code to read user input." />
+    <MESSAGE value="Added code to demonstrate the use of different data types.&quot;." />
+    <MESSAGE value="Added code to display an ASCII robot with dynamic eyes." />
+    <MESSAGE value="move from file" />
+    <MESSAGE value="Updated code to display a longer multi-line message." />
+    <MESSAGE value="Updated code to display a message with escape characters." />
+    <MESSAGE value="Added code to display an ASCII art robot" />
+    <MESSAGE value="Added code to demonstrate the use of an if statement" />
+    <MESSAGE value="Added code to demonstrate the use of an if...else statement." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of an if...else statement." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Week_6/Task_4.py</url>
+          <url>file://$PROJECT_DIR$/university_tasks/week_6/Task_4.py</url>
           <line>3</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -227,6 +328,11 @@
           <url>file://$PROJECT_DIR$/tui.py</url>
           <line>4</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/university_tasks/week_2/task_1.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
