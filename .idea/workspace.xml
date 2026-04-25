@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_1.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a nested decision statement.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -332,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777105596337</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added code to demonstrate the use of a nested decision statement.">
+      <option name="closed" value="true" />
+      <created>1777107280250</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1777107280250</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,7 +373,8 @@
     <MESSAGE value="Added code to demonstrate the use of a modulus operator." />
     <MESSAGE value="Added code to demonstrate the use of comparison operators." />
     <MESSAGE value="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators." />
+    <MESSAGE value="Added code to demonstrate the use of a nested decision statement." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a nested decision statement." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -384,6 +393,11 @@
           <url>file://$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_1.py</url>
           <line>1</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_2.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
