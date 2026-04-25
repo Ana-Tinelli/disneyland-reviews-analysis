@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a nested decision statement.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_2.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of multiple nested statements.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/multiple_conditions/task_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -340,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777107280250</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added code to demonstrate the use of multiple nested statements.">
+      <option name="closed" value="true" />
+      <created>1777108688808</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1777108688808</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,7 +382,8 @@
     <MESSAGE value="Added code to demonstrate the use of comparison operators." />
     <MESSAGE value="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators." />
     <MESSAGE value="Added code to demonstrate the use of a nested decision statement." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a nested decision statement." />
+    <MESSAGE value="Added code to demonstrate the use of multiple nested statements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of multiple nested statements." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
