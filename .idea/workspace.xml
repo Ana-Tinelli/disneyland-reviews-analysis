@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of comparison operators.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/task_6.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +96,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_2\decisions-if" />
       <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_1\input" />
       <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks" />
     </key>
@@ -315,7 +316,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777104494359</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators.">
+      <option name="closed" value="true" />
+      <created>1777105503584</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1777105503584</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators.">
+      <option name="closed" value="true" />
+      <created>1777105596337</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1777105596337</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,7 +364,8 @@
     <MESSAGE value="Added code to demonstrate the use of an if...elif...else statement." />
     <MESSAGE value="Added code to demonstrate the use of a modulus operator." />
     <MESSAGE value="Added code to demonstrate the use of comparison operators." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of comparison operators." />
+    <MESSAGE value="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -363,7 +381,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/university_tasks/week_2/task_1.py</url>
+          <url>file://$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_1.py</url>
           <line>1</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
