@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of an if...else statement.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/task_3.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a modulus operator.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/task_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_6/Task_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/university_tasks/week_6/Task_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_6/Task_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/university_tasks/week_6/Task_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_6/Task_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/university_tasks/week_6/Task_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_6/Task_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/university_tasks/week_6/Task_5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +70,7 @@
     "Python.task_2.executor": "Run",
     "Python.task_3.executor": "Run",
     "Python.task_4.executor": "Run",
+    "Python.task_5.executor": "Run",
     "Python.test1.executor": "Run",
     "Python.test2.executor": "Run",
     "Python.test3.executor": "Run",
@@ -285,7 +282,31 @@
       <option name="project" value="LOCAL" />
       <updated>1777103294725</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added code to demonstrate the use of an if...elif...else statement.">
+      <option name="closed" value="true" />
+      <created>1777103860076</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1777103860076</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added code to demonstrate the use of a modulus operator.">
+      <option name="closed" value="true" />
+      <created>1777104092889</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1777104092889</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added code to demonstrate the use of a modulus operator.">
+      <option name="closed" value="true" />
+      <created>1777104131324</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1777104131324</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +335,9 @@
     <MESSAGE value="Added code to display an ASCII art robot" />
     <MESSAGE value="Added code to demonstrate the use of an if statement" />
     <MESSAGE value="Added code to demonstrate the use of an if...else statement." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of an if...else statement." />
+    <MESSAGE value="Added code to demonstrate the use of an if...elif...else statement." />
+    <MESSAGE value="Added code to demonstrate the use of a modulus operator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a modulus operator." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
