@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a logical or operator.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/multiple_conditions/task_2.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a logical and operator.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/multiple_conditions/task_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777121127918</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added code to demonstrate the use of a logical and operator.">
+      <option name="closed" value="true" />
+      <created>1777121704532</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1777121704532</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,7 +400,8 @@
     <MESSAGE value="Added code to demonstrate the use of a nested decision statement." />
     <MESSAGE value="Added code to demonstrate the use of multiple nested statements." />
     <MESSAGE value="Added code to demonstrate the use of a logical or operator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a logical or operator." />
+    <MESSAGE value="Added code to demonstrate the use of a logical and operator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a logical and operator." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
