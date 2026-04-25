@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a modulus operator.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/task_5.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of comparison operators.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/task_6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +71,7 @@
     "Python.task_3.executor": "Run",
     "Python.task_4.executor": "Run",
     "Python.task_5.executor": "Run",
+    "Python.task_6.executor": "Run",
     "Python.test1.executor": "Run",
     "Python.test2.executor": "Run",
     "Python.test3.executor": "Run",
@@ -306,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777104131324</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added code to demonstrate the use of comparison operators.">
+      <option name="closed" value="true" />
+      <created>1777104494359</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1777104494359</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +346,8 @@
     <MESSAGE value="Added code to demonstrate the use of an if...else statement." />
     <MESSAGE value="Added code to demonstrate the use of an if...elif...else statement." />
     <MESSAGE value="Added code to demonstrate the use of a modulus operator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a modulus operator." />
+    <MESSAGE value="Added code to demonstrate the use of comparison operators." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of comparison operators." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
