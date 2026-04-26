@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to review the use of decisions, nesting and logical operators.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_1.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a simple while loop.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -373,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777127453564</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added code to demonstrate the use of a simple while loop.">
+      <option name="closed" value="true" />
+      <created>1777196598859</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1777196598859</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +419,8 @@
     <MESSAGE value="Added code to demonstrate the use of a logical or operator." />
     <MESSAGE value="Added code to demonstrate the use of a logical and operator." />
     <MESSAGE value="Added code to review the use of decisions, nesting and logical operators." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to review the use of decisions, nesting and logical operators." />
+    <MESSAGE value="Added code to demonstrate the use of a simple while loop." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a simple while loop." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
