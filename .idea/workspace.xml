@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a logical and operator.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_2/multiple_conditions/task_3.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to review the use of decisions, nesting and logical operators.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +96,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_3\loops" />
       <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_2\decisions-if" />
       <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_1\input" />
       <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks" />
@@ -364,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777121704532</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added code to review the use of decisions, nesting and logical operators.">
+      <option name="closed" value="true" />
+      <created>1777127453564</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1777127453564</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +410,8 @@
     <MESSAGE value="Added code to demonstrate the use of multiple nested statements." />
     <MESSAGE value="Added code to demonstrate the use of a logical or operator." />
     <MESSAGE value="Added code to demonstrate the use of a logical and operator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a logical and operator." />
+    <MESSAGE value="Added code to review the use of decisions, nesting and logical operators." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to review the use of decisions, nesting and logical operators." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
