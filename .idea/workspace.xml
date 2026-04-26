@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a while loop with a counter.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a while loop with ASCII art.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777197660035</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added code to demonstrate the use of a while loop with ASCII art.">
+      <option name="closed" value="true" />
+      <created>1777198396021</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1777198396021</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +411,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="Completed Section A tasks 1 to 6" />
     <MESSAGE value="Completed Section B tasks 7 to 9" />
     <MESSAGE value="Completed Section C tasks 10 to 12" />
@@ -429,7 +435,8 @@
     <MESSAGE value="Added code to review the use of decisions, nesting and logical operators." />
     <MESSAGE value="Added code to demonstrate the use of a simple while loop." />
     <MESSAGE value="Added code to demonstrate the use of a while loop with a counter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a while loop with a counter." />
+    <MESSAGE value="Added code to demonstrate the use of a while loop with ASCII art." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a while loop with ASCII art." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
