@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a while loop with ASCII art.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_4.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a while loop with len function.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +67,14 @@
     "Python.task5.executor": "Run",
     "Python.task_1.executor": "Run",
     "Python.task_2.executor": "Run",
+    "Python.task_2a.executor": "Run",
+    "Python.task_2b.executor": "Run",
+    "Python.task_2c.executor": "Run",
     "Python.task_3.executor": "Run",
     "Python.task_4.executor": "Run",
     "Python.task_5.executor": "Run",
     "Python.task_6.executor": "Run",
+    "Python.task_7.executor": "Run",
     "Python.test1.executor": "Run",
     "Python.test2.executor": "Run",
     "Python.test3.executor": "Run",
@@ -396,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777198396021</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added code to demonstrate the use of a while loop with len function.">
+      <option name="closed" value="true" />
+      <created>1777199313214</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1777199313214</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Section A tasks 1 to 6" />
     <MESSAGE value="Completed Section B tasks 7 to 9" />
     <MESSAGE value="Completed Section C tasks 10 to 12" />
     <MESSAGE value="Completed Section D task 14 OOP export feature." />
@@ -436,7 +447,8 @@
     <MESSAGE value="Added code to demonstrate the use of a simple while loop." />
     <MESSAGE value="Added code to demonstrate the use of a while loop with a counter." />
     <MESSAGE value="Added code to demonstrate the use of a while loop with ASCII art." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a while loop with ASCII art." />
+    <MESSAGE value="Added code to demonstrate the use of a while loop with len function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a while loop with len function." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
