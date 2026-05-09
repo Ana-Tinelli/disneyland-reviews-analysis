@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a user-defined function with multiple parameters.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_4/multiple_ser_defined_functions/task_1.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of return values.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_4/multiple_ser_defined_functions/task_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,22 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771849353617</updated>
-    </task>
-    <task id="LOCAL-00001" summary="test">
-      <option name="closed" value="true" />
-      <created>1771849440964</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1771849440964</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test">
-      <option name="closed" value="true" />
-      <created>1771850503388</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1771850503388</updated>
     </task>
     <task id="LOCAL-00003" summary="test">
       <option name="closed" value="true" />
@@ -512,7 +496,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778322551990</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Added code to demonstrate the implementation of multiple user defined functions.">
+      <option name="closed" value="true" />
+      <created>1778322669032</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1778322669034</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Added code to demonstrate the use of return values.">
+      <option name="closed" value="true" />
+      <created>1778322765769</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1778322765769</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,8 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added code to demonstrate the use of an if...elif...else statement." />
-    <MESSAGE value="Added code to demonstrate the use of a modulus operator." />
     <MESSAGE value="Added code to demonstrate the use of comparison operators." />
     <MESSAGE value="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators." />
     <MESSAGE value="Added code to demonstrate the use of a nested decision statement." />
@@ -552,7 +550,9 @@
     <MESSAGE value="Added code to demonstrate the use of a user-defined function with a parameter." />
     <MESSAGE value="Added code to demonstrate the use of a user-defined function with a loop." />
     <MESSAGE value="Added code to demonstrate the use of a user-defined function with multiple parameters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a user-defined function with multiple parameters." />
+    <MESSAGE value="Added code to demonstrate the implementation of multiple user defined functions." />
+    <MESSAGE value="Added code to demonstrate the use of return values." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of return values." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
