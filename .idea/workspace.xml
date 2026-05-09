@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of for loops in string indexing.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_6.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of one loop nested is another.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/nested_loops/task_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -456,7 +456,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778321216766</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Added code to demonstrate how to reverse a string using a for loop">
+      <option name="closed" value="true" />
+      <created>1778321339603</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1778321339603</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added code to demonstrate the use of one loop nested is another.">
+      <option name="closed" value="true" />
+      <created>1778321477848</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1778321477848</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,8 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added code to display an ASCII robot with dynamic eyes." />
-    <MESSAGE value="move from file" />
     <MESSAGE value="Updated code to display a longer multi-line message." />
     <MESSAGE value="Updated code to display a message with escape characters." />
     <MESSAGE value="Added code to display an ASCII art robot" />
@@ -496,7 +510,9 @@
     <MESSAGE value="Added code to demonstrate counting down with a for loop." />
     <MESSAGE value="Added code to demonstrate the use of a simple for loop." />
     <MESSAGE value="Added code to demonstrate the use of for loops in string indexing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of for loops in string indexing." />
+    <MESSAGE value="Added code to demonstrate how to reverse a string using a for loop" />
+    <MESSAGE value="Added code to demonstrate the use of one loop nested is another." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of one loop nested is another." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
