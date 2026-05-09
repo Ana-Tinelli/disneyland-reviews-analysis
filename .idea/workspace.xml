@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of nested loops and decisions.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_4/build_in_functions/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_4/build_in_functions/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a user-defined function with multiple parameters.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_4/multiple_ser_defined_functions/task_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -483,7 +480,39 @@
       <option name="project" value="LOCAL" />
       <updated>1778321654198</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="&quot;Added code to demonstrate the use of a user-defined function with a nested decision.">
+      <option name="closed" value="true" />
+      <created>1778322401098</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1778322401098</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Added code to demonstrate the use of a user-defined function with a parameter.">
+      <option name="closed" value="true" />
+      <created>1778322464511</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1778322464511</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Added code to demonstrate the use of a user-defined function with a loop.">
+      <option name="closed" value="true" />
+      <created>1778322504072</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1778322504072</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Added code to demonstrate the use of a user-defined function with multiple parameters.">
+      <option name="closed" value="true" />
+      <created>1778322551990</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1778322551990</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,10 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated code to display a message with escape characters." />
-    <MESSAGE value="Added code to display an ASCII art robot" />
-    <MESSAGE value="Added code to demonstrate the use of an if statement" />
-    <MESSAGE value="Added code to demonstrate the use of an if...else statement." />
     <MESSAGE value="Added code to demonstrate the use of an if...elif...else statement." />
     <MESSAGE value="Added code to demonstrate the use of a modulus operator." />
     <MESSAGE value="Added code to demonstrate the use of comparison operators." />
@@ -523,7 +548,11 @@
     <MESSAGE value="Added code to demonstrate how to reverse a string using a for loop" />
     <MESSAGE value="Added code to demonstrate the use of one loop nested is another." />
     <MESSAGE value="Added code to demonstrate the use of nested loops and decisions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of nested loops and decisions." />
+    <MESSAGE value="&quot;Added code to demonstrate the use of a user-defined function with a nested decision." />
+    <MESSAGE value="Added code to demonstrate the use of a user-defined function with a parameter." />
+    <MESSAGE value="Added code to demonstrate the use of a user-defined function with a loop." />
+    <MESSAGE value="Added code to demonstrate the use of a user-defined function with multiple parameters." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a user-defined function with multiple parameters." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
