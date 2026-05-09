@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a simple for loop.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_4.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of for loops in string indexing.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -448,7 +448,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778320716399</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Added code to demonstrate the use of for loops in string indexing.">
+      <option name="closed" value="true" />
+      <created>1778321216766</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1778321216766</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added code to demonstrate the use of different data types.&quot;." />
     <MESSAGE value="Added code to display an ASCII robot with dynamic eyes." />
     <MESSAGE value="move from file" />
     <MESSAGE value="Updated code to display a longer multi-line message." />
@@ -488,7 +495,8 @@
     <MESSAGE value="Added code to demonstrate the use of a while loop in performing calculations with user input." />
     <MESSAGE value="Added code to demonstrate counting down with a for loop." />
     <MESSAGE value="Added code to demonstrate the use of a simple for loop." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a simple for loop." />
+    <MESSAGE value="Added code to demonstrate the use of for loops in string indexing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of for loops in string indexing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
