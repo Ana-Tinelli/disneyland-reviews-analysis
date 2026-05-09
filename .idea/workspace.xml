@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of summing with a while loop.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of a simple for loop.">
+      <change afterPath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -417,7 +416,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778319776575</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Added code to demonstrate the use of a while loop in performing calculations with user input.">
+      <option name="closed" value="true" />
+      <created>1778320294039</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1778320294039</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Added code to demonstrate the use of a simple for loop.">
+      <option name="closed" value="true" />
+      <created>1778320519185</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1778320519185</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -432,8 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Section C tasks 10 to 12" />
-    <MESSAGE value="Completed Section D task 14 OOP export feature." />
     <MESSAGE value="added code to read user input." />
     <MESSAGE value="Added code to demonstrate the use of different data types.&quot;." />
     <MESSAGE value="Added code to display an ASCII robot with dynamic eyes." />
@@ -457,7 +470,9 @@
     <MESSAGE value="Added code to demonstrate the use of a while loop with ASCII art." />
     <MESSAGE value="Added code to demonstrate the use of a while loop with len function." />
     <MESSAGE value="Added code to demonstrate the use of summing with a while loop." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of summing with a while loop." />
+    <MESSAGE value="Added code to demonstrate the use of a while loop in performing calculations with user input." />
+    <MESSAGE value="Added code to demonstrate the use of a simple for loop." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of a simple for loop." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
