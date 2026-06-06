@@ -14,9 +14,11 @@ def load_reviews_from_csv(file_name):
 
     return reviews
 
+# returns all reviews for the select park
 def get_reviews_by_park(data, park_name):
     matching_reviews = []
 
+# format user input to match the CSV naming style
     user_input = park_name.strip().lower().replace(" ", "_")
 
     for review in data:
@@ -27,6 +29,7 @@ def get_reviews_by_park(data, park_name):
 
     return matching_reviews
 
+# counts reviews for a selected park and reviewer location
 def count_reviews_by_park_and_location(data, park_name, reviewer_location):
     count = 0
 
@@ -42,6 +45,7 @@ def count_reviews_by_park_and_location(data, park_name, reviewer_location):
 
     return count
 
+# calculates average rating for a park in a given year
 def get_average_score_by_park_and_year(data, park_name, year):
     total_score = 0
     review_count = 0
@@ -58,6 +62,7 @@ def get_average_score_by_park_and_year(data, park_name, year):
             total_score += rating
             review_count += 1
 
+# return None if no matching reviews were found
     if review_count == 0:
         return None
     return total_score / review_count

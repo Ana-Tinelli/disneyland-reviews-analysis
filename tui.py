@@ -41,6 +41,7 @@ def confirm_menu_choice(choice):
     else:
         print("\nInvalid menu choice. Please try again.")
 
+# displays the view data submenu options
 def display_view_data_menu():
     print("\nPlease enter one of the following options:")
     print("   [A] View Reviews by Park")
@@ -54,10 +55,12 @@ def display_visualise_data_menu():
     print("   [B] Park Ranking by Nationality")
     print("   [C] Most Popular Month by Park")
 
+# gets the user submenu choice
 def get_submenu_choice():
     choice = input("\nEnter your submenu choice: ")
     return choice.upper()
 
+# confirm the selected view data option
 def confirm_view_data_choice(choice):
     if choice == "A":
         print("\nYou selected submenu option A - View Reviews by Park")
@@ -80,10 +83,12 @@ def confirm_visualise_data_choice(choice):
     else:
         print("\nInvalid submenu choice. Please try again.")
 
+# gets the park name from the user
 def get_park_name():
     park_name = input("\nEnter the park name: ")
     return park_name
 
+# displays all reviews for the selected park
 def display_reviews_by_park(park_name, reviews):
     if len(reviews) == 0:
         print(f"\nNo reviews found for {park_name}.")
@@ -93,17 +98,21 @@ def display_reviews_by_park(park_name, reviews):
         for review in reviews:
             print(review)
 
+# gets the reviewer's location from the user
 def get_reviewer_location():
     location = input("\nEnter the reviewer location: ")
     return location
 
+# displays the review count for a park and location
 def display_review_count_result(park_name, reviewer_location, review_count):
     print(f"\n{park_name} has {review_count} reviews from {reviewer_location}.")
 
+# gets the year from the user
 def get_year():
     year = input("\nEnter the year: ")
     return year
 
+# displays the average park rating for a selected year
 def display_average_score_result(park_name, year, average_score):
     if average_score is None:
         print(f"\nNo reviews found for {park_name} in {year}.")
