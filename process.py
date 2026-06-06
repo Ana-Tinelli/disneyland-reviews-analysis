@@ -1,3 +1,4 @@
+# reads the csv file and stores each review row in a list
 def load_reviews_from_csv(file_name):
     reviews = []
 

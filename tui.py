@@ -1,3 +1,4 @@
+# displays the application title with border
 def display_title():
     title = "Disneyland Review Analyser"
     border = "_" * len(title)
@@ -6,10 +7,12 @@ def display_title():
     print(title)
     print(border)
 
+# shows confirmation of CSV dataset loading
 def display_dataset_loaded_message(row_count):
     print("\nDataset has been loaded successfully.")
     print(f"Number of rows in the dataset: {row_count}")
 
+# displays the main menu options to the user
 def display_main_menu():
     print("\nPlease enter the letter which corresponds with your desired menu choice:")
     print("   [A] View Data")
@@ -17,6 +20,7 @@ def display_main_menu():
     print("   [C] Export Data")
     print("   [X] Exit")
 
+# confirms the user main menu choice or displays invalid choice
 def get_user_menu_choice():
     choice = input("\nEnter your choice: ")
     return choice.upper()
