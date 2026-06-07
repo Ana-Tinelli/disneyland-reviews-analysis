@@ -49,6 +49,8 @@ def display_view_data_menu():
     print("   [C] Average Score per year by Park")
     print("   [D] Average Score per Park by Reviewer Location")
 
+
+# displays the visualisation submenu options
 def display_visualise_data_menu():
     print("\nPlease enter one of the following options:")
     print("   [A] Most reviewed Parks")

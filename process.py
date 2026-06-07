@@ -67,6 +67,7 @@ def get_average_score_by_park_and_year(data, park_name, year):
         return None
     return total_score / review_count
 
+# counts how many reviews each park has received
 def get_review_counts_by_park(data):
     park_counts = {}
 
@@ -79,6 +80,7 @@ def get_review_counts_by_park(data):
             park_counts[park_name] = 1
     return park_counts
 
+# returns the top 10 reviewer locations by average rating
 def get_top_10_locations_by_average_rating(data, park_name):
     location_ratings = {}
 
@@ -97,6 +99,7 @@ def get_top_10_locations_by_average_rating(data, park_name):
 
     average_ratings = []
 
+# sort locations by highest average rating
     for location, ratings in location_ratings.items():
         average_score = sum(ratings) / len(ratings)
         average_ratings.append((location, average_score))
@@ -105,6 +108,7 @@ def get_top_10_locations_by_average_rating(data, park_name):
 
     return average_ratings[:10]
 
+# calculates average ratings for each month of the year
 def get_monthly_average_ratings_by_park(data, park_name):
     month_ratings = {
         "Jan": [],
@@ -143,6 +147,7 @@ def get_monthly_average_ratings_by_park(data, park_name):
         year_month = review[2].strip()
         rating = int(review[1])
 
+# collect ratings for the selected park by month
         if park_from_csv == user_park:
             parts = year_month.split("-")
 
@@ -155,6 +160,7 @@ def get_monthly_average_ratings_by_park(data, park_name):
 
     monthly_averages = {}
 
+# calculate average rating for each month
     for month, ratings in month_ratings.items():
         if len(ratings) > 0:
             monthly_averages[month] = sum(ratings) / len(ratings)
