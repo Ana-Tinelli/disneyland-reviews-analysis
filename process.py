@@ -18,7 +18,7 @@ def load_reviews_from_csv(file_name):
 def get_reviews_by_park(data, park_name):
     matching_reviews = []
 
-# format user input to match the CSV naming style
+    # format user input to match the CSV naming style
     user_input = park_name.strip().lower().replace(" ", "_")
 
     for review in data:
@@ -62,7 +62,7 @@ def get_average_score_by_park_and_year(data, park_name, year):
             total_score += rating
             review_count += 1
 
-# return None if no matching reviews were found
+    # return None if no matching reviews were found
     if review_count == 0:
         return None
     return total_score / review_count
@@ -99,7 +99,7 @@ def get_top_10_locations_by_average_rating(data, park_name):
 
     average_ratings = []
 
-# sort locations by highest average rating
+    # sort locations by highest average rating
     for location, ratings in location_ratings.items():
         average_score = sum(ratings) / len(ratings)
         average_ratings.append((location, average_score))
@@ -147,7 +147,7 @@ def get_monthly_average_ratings_by_park(data, park_name):
         year_month = review[2].strip()
         rating = int(review[1])
 
-# collect ratings for the selected park by month
+        # collect ratings for the selected park by month
         if park_from_csv == user_park:
             parts = year_month.split("-")
 
@@ -160,7 +160,7 @@ def get_monthly_average_ratings_by_park(data, park_name):
 
     monthly_averages = {}
 
-# calculate average rating for each month
+    # calculate average rating for each month
     for month, ratings in month_ratings.items():
         if len(ratings) > 0:
             monthly_averages[month] = sum(ratings) / len(ratings)
@@ -169,6 +169,7 @@ def get_monthly_average_ratings_by_park(data, park_name):
 
     return monthly_averages
 
+# calculates average ratings for each park by reviewer location
 def get_average_score_per_park_by_location(data):
     park_location_ratings = {}
 
@@ -177,6 +178,7 @@ def get_average_score_per_park_by_location(data):
         location =review[3].strip()
         rating = int(review[1])
 
+        # create a nested dictionary for each park and location
         if park_name not in park_location_ratings:
             park_location_ratings[park_name] = {}
 
@@ -187,6 +189,7 @@ def get_average_score_per_park_by_location(data):
 
     average_scores = {}
 
+    # calculate the average score for each park and location
     for park_name, locations in park_location_ratings.items():
         average_scores[park_name] = {}
 
@@ -195,6 +198,7 @@ def get_average_score_per_park_by_location(data):
 
     return average_scores
 
+# prepares summary data for each park before exporting
 def get_export_data_by_park(data):
     park_data = {}
 
@@ -203,6 +207,7 @@ def get_export_data_by_park(data):
         rating = int(review[1])
         country = review[3].strip()
 
+        # create a summary record for each park
         if park_name not in park_data:
             park_data[park_name] = {
                 "number_of_reviews": 0,
@@ -218,6 +223,7 @@ def get_export_data_by_park(data):
 
         park_data[park_name]["countries"].add(country)
 
+    # convert summary data into a list for the exporter classes
     export_data = []
 
     for park_name, info in park_data.items():

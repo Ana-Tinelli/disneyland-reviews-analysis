@@ -121,6 +121,7 @@ def display_average_score_result(park_name, year, average_score):
     else:
         print(f"\nThe average rating for {park_name} in {year} is {average_score:.2f}.")
 
+# displays average scores grouped by park and reviewer location
 def display_average_score_per_park_by_location(average_scores):
     print("\nAverage score per park by reviewer location:\n")
 
@@ -132,12 +133,14 @@ def display_average_score_per_park_by_location(average_scores):
 
         print()
 
+# displays the available export format options
 def display_export_menu():
     print("\nPlease select an export format:")
     print("   [A] TXT")
     print("   [B] CSV")
     print("   [C] JSON")
 
+# confirms that the export file was created successfully
 def confirm_export_choice(choice):
     if choice == "A":
         print("\nYou selected TXT export.")

@@ -19,12 +19,12 @@ def plot_top_10_locations(top_locations, park_name):
     locations = []
     average_scores = []
 
-# separate locations and scores for plotting
+    # separate locations and scores for plotting
     for location, score in top_locations:
         locations.append(location)
         average_scores.append(score)
 
-# create a bar chart
+    # create a bar chart
     plt.figure(figsize=(10,6))
     plt.bar(locations, average_scores)
     plt.title(f"top 10 Locations by average Rating for {park_name}")
@@ -43,11 +43,11 @@ def plot_monthly_average_ratings(monthly_averages, park_name):
 
     average_scores = []
 
-# collect average scores for plotting
+    # collect average scores for plotting
     for month in months_in_order:
         average_scores.append(monthly_averages[month])
 
-# create the monthly ratings chart
+    # create the monthly ratings chart
     plt.figure(figsize=(10, 6))
     plt.bar(months_in_order, average_scores)
     plt.title(f"Average Rating by Month for {park_name}")

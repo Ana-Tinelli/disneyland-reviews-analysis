@@ -7,10 +7,10 @@ import export
 def main():
     tui.display_title()
 
-# load the CSV data once when starts the program
+    # load the CSV data once when starts the program
     reviews = process.load_reviews_from_csv("disneyland_reviews.csv")
 
-# confirm dataset loading and shows the row count
+    # confirm dataset loading and shows the row count
     tui.display_dataset_loaded_message(len(reviews))
 
     while True:
@@ -18,7 +18,7 @@ def main():
         user_choice = tui.get_user_menu_choice()
         tui.confirm_menu_choice(user_choice)
 
-# open the view data submenu
+        # open the view data submenu
         if user_choice == "A":
             tui.display_view_data_menu()
             submenu_choice = tui.get_submenu_choice()
@@ -45,7 +45,7 @@ def main():
                 average_scores = process.get_average_score_per_park_by_location(reviews)
                 tui.display_average_score_per_park_by_location(average_scores)
 
-# open the visualisation submenu
+        # open the visualisation submenu
         elif user_choice == 'B':
             tui.display_visualise_data_menu()
             submenu_choice = tui.get_submenu_choice()
@@ -65,30 +65,34 @@ def main():
                 monthly_averages = process.get_monthly_average_ratings_by_park(reviews, park_name)
                 visual.plot_monthly_average_ratings(monthly_averages, park_name)
 
-# open the export menu
+        # open the export menu
         elif user_choice == "C":
             tui.display_export_menu()
             export_choice = tui.get_submenu_choice()
             tui.confirm_export_choice(export_choice)
 
+            # prepare the summary data used by all export formats
             export_data = process.get_export_data_by_park(reviews)
 
+            # export the data as a text file
             if export_choice == "A":
                 txt_exporter = export.TXTExporter(export_data)
                 txt_exporter.export("park_export.txt")
                 tui.display_export_success_message("park_export.txt")
 
+            # export the data as a CSV file
             elif export_choice == "B":
                 csv_exporter = export.CSVExporter(export_data)
                 csv_exporter.export("park_export.csv")
                 tui.display_export_success_message("park_export.csv")
 
+            # export the data as a JSON file
             elif export_choice == "C":
                 json_exporter = export.JSONExporter(export_data)
                 json_exporter.export("park_export.json")
                 tui.display_export_success_message("park_export.json")
 
-# exit the menu loop and end the program
+        # exit the menu loop and end the program
         elif user_choice == "X":
             break
 
