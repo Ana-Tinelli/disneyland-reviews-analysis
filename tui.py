@@ -1,4 +1,4 @@
-# displays the application title with border
+# Displays the application title with border.
 def display_title():
     title = "Disneyland Review Analyser"
     border = "_" * len(title)
@@ -7,12 +7,12 @@ def display_title():
     print(title)
     print(border)
 
-# shows confirmation of CSV dataset loading
+# Shows confirmation of CSV dataset loading.
 def display_dataset_loaded_message(row_count):
     print("\nDataset has been loaded successfully.")
     print(f"Number of rows in the dataset: {row_count}")
 
-# displays the main menu options to the user
+# Displays the main menu options to the user.
 def display_main_menu():
     print("\nPlease enter the letter which corresponds with your desired menu choice:")
     print("   [A] View Data")
@@ -20,11 +20,12 @@ def display_main_menu():
     print("   [C] Export Data")
     print("   [X] Exit")
 
-# confirms the user main menu choice or displays invalid choice
+# Gets the user's main menu choice.
 def get_user_menu_choice():
     choice = input("\nEnter your choice: ")
     return choice.upper()
 
+# Confirms the user main menu choice or displays invalid choice.
 def confirm_menu_choice(choice):
     if choice == "A":
         print("\nYou have chosen option A - View Data")
@@ -41,7 +42,7 @@ def confirm_menu_choice(choice):
     else:
         print("\nInvalid menu choice. Please try again.")
 
-# displays the view data submenu options
+# Displays the view data submenu options.
 def display_view_data_menu():
     print("\nPlease enter one of the following options:")
     print("   [A] View Reviews by Park")
@@ -50,19 +51,19 @@ def display_view_data_menu():
     print("   [D] Average Score per Park by Reviewer Location")
 
 
-# displays the visualisation submenu options
+# Displays the visualisation submenu options.
 def display_visualise_data_menu():
     print("\nPlease enter one of the following options:")
     print("   [A] Most reviewed Parks")
     print("   [B] Park Ranking by Nationality")
     print("   [C] Most Popular Month by Park")
 
-# gets the user submenu choice
+# Gets the user submenu choice.
 def get_submenu_choice():
     choice = input("\nEnter your submenu choice: ")
     return choice.upper()
 
-# confirm the selected view data option
+# Confirm the selected view data option.
 def confirm_view_data_choice(choice):
     if choice == "A":
         print("\nYou selected submenu option A - View Reviews by Park")
@@ -85,12 +86,12 @@ def confirm_visualise_data_choice(choice):
     else:
         print("\nInvalid submenu choice. Please try again.")
 
-# gets the park name from the user
+# Gets the park name from the user.
 def get_park_name():
     park_name = input("\nEnter the park name: ")
     return park_name
 
-# displays all reviews for the selected park
+# Displays all reviews for the selected park.
 def display_reviews_by_park(park_name, reviews):
     if len(reviews) == 0:
         print(f"\nNo reviews found for {park_name}.")
@@ -100,28 +101,28 @@ def display_reviews_by_park(park_name, reviews):
         for review in reviews:
             print(review)
 
-# gets the reviewer's location from the user
+# Gets the reviewer's location from the user.
 def get_reviewer_location():
     location = input("\nEnter the reviewer location: ")
     return location
 
-# displays the review count for a park and location
+# Displays the review count for a park and location.
 def display_review_count_result(park_name, reviewer_location, review_count):
     print(f"\n{park_name} has {review_count} reviews from {reviewer_location}.")
 
-# gets the year from the user
+# Gets the year from the user.
 def get_year():
     year = input("\nEnter the year: ")
     return year
 
-# displays the average park rating for a selected year
+# Displays the average park rating for a selected year.
 def display_average_score_result(park_name, year, average_score):
     if average_score is None:
         print(f"\nNo reviews found for {park_name} in {year}.")
     else:
         print(f"\nThe average rating for {park_name} in {year} is {average_score:.2f}.")
 
-# displays average scores grouped by park and reviewer location
+# Displays average scores grouped by park and reviewer location.
 def display_average_score_per_park_by_location(average_scores):
     print("\nAverage score per park by reviewer location:\n")
 
@@ -133,14 +134,14 @@ def display_average_score_per_park_by_location(average_scores):
 
         print()
 
-# displays the available export format options
+# Displays the available export format options.
 def display_export_menu():
     print("\nPlease select an export format:")
     print("   [A] TXT")
     print("   [B] CSV")
     print("   [C] JSON")
 
-# confirms that the export file was created successfully
+# Confirms that the export file was created successfully.
 def confirm_export_choice(choice):
     if choice == "A":
         print("\nYou selected TXT export.")
