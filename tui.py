@@ -129,7 +129,7 @@ def display_average_score_per_park_by_location(average_scores):
     for park_name, locations in average_scores.items():
         print(park_name)
 
-        for location, average_score in locations. items():
+        for location, average_score in locations.items():
             print(f"  {location}: {average_score:.2f}")
 
         print()
@@ -141,7 +141,7 @@ def display_export_menu():
     print("   [B] CSV")
     print("   [C] JSON")
 
-# Confirms that the export file was created successfully.
+# Confirms the selected export format.
 def confirm_export_choice(choice):
     if choice == "A":
         print("\nYou selected TXT export.")
@@ -152,6 +152,7 @@ def confirm_export_choice(choice):
     else:
         print("\nInvalid export choice. Please try again.")
 
+# Confirms that the export file was created successfully.
 def display_export_success_message(file_name):
     print(f"\nData Exported successfully to {file_name}.")
 

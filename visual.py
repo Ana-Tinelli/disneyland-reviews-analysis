@@ -25,9 +25,9 @@ def plot_top_10_locations(top_locations, park_name):
         average_scores.append(score)
 
     # Create a bar chart.
-    plt.figure(figsize=(10,6))
+    plt.figure(figsize=(10, 6))
     plt.bar(locations, average_scores)
-    plt.title(f"top 10 Locations by average Rating for {park_name}")
+    plt.title(f"Top 10 Locations by average Rating for {park_name}")
     plt.xlabel("Reviewer Location")
     plt.ylabel("Average Rating")
     plt.xticks(rotation=45, ha="right")

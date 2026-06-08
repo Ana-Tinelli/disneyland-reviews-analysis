@@ -50,7 +50,7 @@ def get_average_score_by_park_and_year(data, park_name, year):
     total_score = 0
     review_count = 0
 
-    user_park = park_name.strip().lower().replace(" ","_")
+    user_park = park_name.strip().lower().replace(" ", "_")
     user_year = year.strip()
 
     for review in data:
@@ -75,7 +75,7 @@ def get_review_counts_by_park(data):
         park_name = review[4].strip()
 
         if park_name in park_counts:
-            park_counts[park_name] +=1
+            park_counts[park_name] += 1
         else:
             park_counts[park_name] = 1
     return park_counts
@@ -194,7 +194,7 @@ def get_average_score_per_park_by_location(data):
         average_scores[park_name] = {}
 
         for location, ratings in locations.items():
-            average_scores[park_name] [location] = sum(ratings) / len(ratings)
+            average_scores[park_name][location] = sum(ratings) / len(ratings)
 
     return average_scores
 
@@ -227,7 +227,7 @@ def get_export_data_by_park(data):
     export_data = []
 
     for park_name, info in park_data.items():
-        average_score = info["total_score"] /info ["number_of_reviews"]
+        average_score = info["total_score"] / info ["number_of_reviews"]
 
         export_data.append({
             "park_name": park_name,

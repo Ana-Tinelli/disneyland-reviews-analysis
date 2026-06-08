@@ -59,5 +59,5 @@ class CSVExporter(Exporter):
 class JSONExporter(Exporter):
     def export(self, file_name):
         with open(file_name, 'w', encoding="utf-8") as file:
-            # save the summary data using an indented JSON format
+            # Save the summary data using an indented JSON format.
             json.dump(self.data, file, indent=4)
