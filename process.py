@@ -162,7 +162,7 @@ def get_monthly_average_ratings_by_park(data, park_name):
             parts = year_month.split("-")
 
             if len(parts) == 2:
-                 month_number = parts[1]
+                 month_number = parts[1].zfill(2)
 
                  if month_number in month_map:
                      month_name = month_map[month_number]
