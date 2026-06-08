@@ -99,7 +99,12 @@ def display_reviews_by_park(park_name, reviews):
         print(f"\nReviews for {park_name}: ")
 
         for review in reviews:
-            print(review)
+            print(f"Review ID: {review[0]} | "
+        f"Rating: {review[1]} | "
+        f"Date: {review[2]} | "
+        f"Location: {review[3]} | "
+        f"Park: {review[4]}"
+    )
 
 # Gets the reviewer's location from the user.
 def get_reviewer_location():

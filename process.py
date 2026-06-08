@@ -56,6 +56,11 @@ def get_average_score_by_park_and_year(data, park_name, year):
     for review in data:
         park_from_csv = review[4].strip().lower()
         year_month = review[2].strip()
+
+        # Skip rows with missing dates.
+        if year_month.lower() == "missing":
+            continue
+
         rating = int(review[1])
 
         if park_from_csv == user_park and year_month.startswith(user_year):
@@ -145,6 +150,11 @@ def get_monthly_average_ratings_by_park(data, park_name):
     for review in data:
         park_from_csv = review[4].strip().lower()
         year_month = review[2].strip()
+
+        # Skip rows with missing dates.
+        if year_month.lower() == "missing":
+            continue
+
         rating = int(review[1])
 
         # Collect ratings for the selected park by month.
