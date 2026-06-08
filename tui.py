@@ -88,6 +88,11 @@ def confirm_visualise_data_choice(choice):
 
 # Gets the park name from the user.
 def get_park_name():
+    print("\nAvailable parks:")
+    print("Disneyland_California")
+    print("Disneyland_HongKong")
+    print("Disneyland_Paris")
+
     park_name = input("\nEnter the park name: ")
     return park_name
 
