@@ -88,12 +88,22 @@ def confirm_visualise_data_choice(choice):
 
 # Gets the park name from the user.
 def get_park_name():
-    print("\nAvailable parks:")
-    print("Disneyland_California")
-    print("Disneyland_HongKong")
-    print("Disneyland_Paris")
+    valid_parks = [
+   "Disneyland_California",
+   "Disneyland_HongKong",
+   "Disneyland_Paris"
+    ]
+
+    print("\nAvailable Parks:")
+    for park in valid_parks:
+        print(park)
 
     park_name = input("\nEnter the park name: ")
+
+    while park_name not in valid_parks:
+        print("\nInvalid Park name. Please try again.")
+        park_name = input("Enter the park name: ")
+
     return park_name
 
 # Displays all reviews for the selected park.

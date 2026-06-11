@@ -5,56 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Fix monthly rating chart and improve date handling">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/input/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/input/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/input/task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/input/task_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/output/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/output/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/output/task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/output/task_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/multiple_conditions/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/multiple_conditions/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/multiple_conditions/task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/nested_loops/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/nested_loops/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/build_in_functions/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/build_in_functions/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/modules/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/multiple_ser_defined_functions/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/multiple_ser_defined_functions/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/multiple_ser_defined_functions/task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_6/Task_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_6/Task_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_6/Task_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_6/Task_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/university_tasks/week_6/Task_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tui.py" beforeDir="false" afterPath="$PROJECT_DIR$/tui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,97 +48,97 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Lecture_Week_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture_Week_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Seminar_Week_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Seminar_Week_5.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Seminar_Week_5.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Seminar_Week_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Task_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.activity_7_survivors_per_age_group.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dry_chothes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.export.executor&quot;: &quot;Run&quot;,
-    &quot;Python.human.executor&quot;: &quot;Run&quot;,
-    &quot;Python.inhabitant.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lecture.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.matplot_subplot_dict.executor&quot;: &quot;Run&quot;,
-    &quot;Python.menu_if_loops.executor&quot;: &quot;Run&quot;,
-    &quot;Python.planet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.process.executor&quot;: &quot;Run&quot;,
-    &quot;Python.robot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.shopping_list_dict.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1_current_working_directory.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1_reading_csv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1_reading_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1_simple_dictionary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1_simple_line.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1_simple_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1_simple_set.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task1_simple_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2_exporting_json.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2_extract_value_csv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2_indexing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2_iterate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2_set_order_data_structures.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2_square_line.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task2_tuple_return_type.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task3_dictionary_dictioanry.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task3_export_csv.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task3_iterate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task3_path_lines.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task3_read_linebyline.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task3_sorting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task4_data_dict_plot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task4_populate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task4_writting_to_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task7_survivors_per_age_group.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_2_reading_file.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_2a.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_2b.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_2c.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_3_nested_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.task_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
-    &quot;Python.titanic.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.universe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.visual.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_1_task_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_1_task_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_1_task_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_1_task_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_1_task_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_1_task_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_1_task_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_1_task_8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.week_4_functions_nenu.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Lecture_Week_4.executor": "Run",
+    "Python.Lecture_Week_6.executor": "Run",
+    "Python.Seminar_Week_4.executor": "Run",
+    "Python.Seminar_Week_5.2.executor": "Run",
+    "Python.Seminar_Week_5.3.executor": "Run",
+    "Python.Seminar_Week_5.executor": "Run",
+    "Python.Task_1.executor": "Run",
+    "Python.Task_4.executor": "Run",
+    "Python.Task_5.executor": "Run",
+    "Python.activity_7_survivors_per_age_group.executor": "Run",
+    "Python.classes.executor": "Run",
+    "Python.dry_chothes.executor": "Run",
+    "Python.export.executor": "Debug",
+    "Python.human.executor": "Run",
+    "Python.inhabitant.executor": "Run",
+    "Python.lecture.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.matplot_subplot_dict.executor": "Run",
+    "Python.menu_if_loops.executor": "Run",
+    "Python.planet.executor": "Run",
+    "Python.process.executor": "Run",
+    "Python.robot.executor": "Run",
+    "Python.shopping_list_dict.executor": "Run",
+    "Python.task1_current_working_directory.executor": "Run",
+    "Python.task1_reading_csv.executor": "Run",
+    "Python.task1_reading_json.executor": "Run",
+    "Python.task1_simple_dictionary.executor": "Run",
+    "Python.task1_simple_line.executor": "Run",
+    "Python.task1_simple_list.executor": "Run",
+    "Python.task1_simple_set.executor": "Run",
+    "Python.task1_simple_tuple.executor": "Run",
+    "Python.task2_exporting_json.executor": "Run",
+    "Python.task2_extract_value_csv.executor": "Run",
+    "Python.task2_indexing.executor": "Run",
+    "Python.task2_iterate.executor": "Run",
+    "Python.task2_set_order_data_structures.executor": "Run",
+    "Python.task2_square_line.executor": "Run",
+    "Python.task2_tuple_return_type.executor": "Run",
+    "Python.task3_dictionary_dictioanry.executor": "Run",
+    "Python.task3_export_csv.executor": "Run",
+    "Python.task3_iterate.executor": "Run",
+    "Python.task3_path_lines.executor": "Run",
+    "Python.task3_read_linebyline.executor": "Run",
+    "Python.task3_sorting.executor": "Run",
+    "Python.task4_data_dict_plot.executor": "Run",
+    "Python.task4_populate.executor": "Run",
+    "Python.task4_writting_to_file.executor": "Run",
+    "Python.task5.executor": "Run",
+    "Python.task7_survivors_per_age_group.executor": "Run",
+    "Python.task_1.executor": "Run",
+    "Python.task_2.executor": "Run",
+    "Python.task_2_reading_file.executor": "Run",
+    "Python.task_2a.executor": "Run",
+    "Python.task_2b.executor": "Run",
+    "Python.task_2c.executor": "Run",
+    "Python.task_3.executor": "Run",
+    "Python.task_3_nested_tuple.executor": "Run",
+    "Python.task_4.executor": "Run",
+    "Python.task_5.executor": "Run",
+    "Python.task_6.executor": "Run",
+    "Python.task_7.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.test3.executor": "Run",
+    "Python.test4.executor": "Run",
+    "Python.teste.executor": "Run",
+    "Python.titanic.executor": "Run",
+    "Python.tui.executor": "Debug",
+    "Python.universe.executor": "Run",
+    "Python.visual.executor": "Debug",
+    "Python.week_01.executor": "Run",
+    "Python.week_02.executor": "Run",
+    "Python.week_1_task_1.executor": "Run",
+    "Python.week_1_task_2.executor": "Run",
+    "Python.week_1_task_3.executor": "Run",
+    "Python.week_1_task_4.executor": "Run",
+    "Python.week_1_task_5.executor": "Run",
+    "Python.week_1_task_6.executor": "Run",
+    "Python.week_1_task_7.executor": "Run",
+    "Python.week_1_task_8.executor": "Run",
+    "Python.week_4_functions_nenu.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\teste\extra_exercises" />
@@ -211,14 +162,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771849353617</updated>
-    </task>
-    <task id="LOCAL-00013" summary="added code to read user input.">
-      <option name="closed" value="true" />
-      <created>1777067449423</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1777067449423</updated>
     </task>
     <task id="LOCAL-00014" summary="Added code to demonstrate the use of different data types.&quot;.">
       <option name="closed" value="true" />
@@ -604,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780916359756</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Fix monthly rating chart and improve date handling">
+      <option name="closed" value="true" />
+      <created>1781164840129</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1781164840131</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
