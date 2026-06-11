@@ -4,8 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Added code to demonstrate the use of return values.">
-      <change afterPath="$PROJECT_DIR$/university_tasks/week_4/multiple_ser_defined_functions/task_3.py" afterDir="false" />
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Fix monthly rating chart and improve date handling">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/input/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/input/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/input/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/input/task_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/output/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/output/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/output/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_1/output/task_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/decisions-if/task_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/multiple_conditions/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/multiple_conditions/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/multiple_conditions/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/for_loops/task_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/nested_loops/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/nested_loops/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_3/while_loops/task_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/build_in_functions/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/build_in_functions/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/modules/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/multiple_ser_defined_functions/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/multiple_ser_defined_functions/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/multiple_ser_defined_functions/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_4/user_defined_functions/task_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_6/Task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_6/Task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_6/Task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_6/Task_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/university_tasks/week_6/Task_5.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,17 +109,54 @@
     &quot;Python.Task_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task_4.executor&quot;: &quot;Run&quot;,
     &quot;Python.Task_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.activity_7_survivors_per_age_group.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dry_chothes.executor&quot;: &quot;Run&quot;,
     &quot;Python.export.executor&quot;: &quot;Run&quot;,
+    &quot;Python.human.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inhabitant.executor&quot;: &quot;Run&quot;,
     &quot;Python.lecture.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matplot_subplot_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menu_if_loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.planet.executor&quot;: &quot;Run&quot;,
     &quot;Python.process.executor&quot;: &quot;Run&quot;,
+    &quot;Python.robot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shopping_list_dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1_current_working_directory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1_reading_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1_reading_json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1_simple_dictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1_simple_line.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1_simple_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1_simple_set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task1_simple_tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_exporting_json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_extract_value_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_indexing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_iterate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_set_order_data_structures.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_square_line.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2_tuple_return_type.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_dictionary_dictioanry.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_export_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_iterate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_path_lines.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_read_linebyline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3_sorting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task4_data_dict_plot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task4_populate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task4_writting_to_file.executor&quot;: &quot;Run&quot;,
     &quot;Python.task5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task7_survivors_per_age_group.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_2_reading_file.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_2a.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_2b.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_2c.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_3_nested_tuple.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_4.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_5.executor&quot;: &quot;Run&quot;,
     &quot;Python.task_6.executor&quot;: &quot;Run&quot;,
@@ -80,6 +166,9 @@
     &quot;Python.test3.executor&quot;: &quot;Run&quot;,
     &quot;Python.test4.executor&quot;: &quot;Run&quot;,
     &quot;Python.teste.executor&quot;: &quot;Run&quot;,
+    &quot;Python.titanic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.universe.executor&quot;: &quot;Run&quot;,
     &quot;Python.visual.executor&quot;: &quot;Run&quot;,
     &quot;Python.week_01.executor&quot;: &quot;Run&quot;,
     &quot;Python.week_02.executor&quot;: &quot;Run&quot;,
@@ -91,18 +180,21 @@
     &quot;Python.week_1_task_6.executor&quot;: &quot;Run&quot;,
     &quot;Python.week_1_task_7.executor&quot;: &quot;Run&quot;,
     &quot;Python.week_1_task_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.week_4_functions_nenu.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_3\loops" />
-      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_2\decisions-if" />
-      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_1\input" />
-      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks" />
+      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\teste\extra_exercises" />
+      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_9\oop" />
+      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_9" />
+      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_9\seminar" />
+      <recent name="C:\Users\fabri\PycharmProjects\PythonProject\Problem-Solving-through-Python\university_tasks\week_7\set" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -119,86 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771849353617</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test">
-      <option name="closed" value="true" />
-      <created>1771850576497</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1771850576497</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test">
-      <option name="closed" value="true" />
-      <created>1771850590317</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1771850590317</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test">
-      <option name="closed" value="true" />
-      <created>1771850676270</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1771850676270</updated>
-    </task>
-    <task id="LOCAL-00006" summary="test">
-      <option name="closed" value="true" />
-      <created>1771871721707</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1771871721707</updated>
-    </task>
-    <task id="LOCAL-00007" summary="test">
-      <option name="closed" value="true" />
-      <created>1771872379667</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1771872379667</updated>
-    </task>
-    <task id="LOCAL-00008" summary="test">
-      <option name="closed" value="true" />
-      <created>1772481302651</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1772481302651</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Completed Section A tasks 1 to 6">
-      <option name="closed" value="true" />
-      <created>1775701501975</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1775701501975</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Completed Section B tasks 7 to 9">
-      <option name="closed" value="true" />
-      <created>1775751473500</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1775751473500</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Completed Section C tasks 10 to 12">
-      <option name="closed" value="true" />
-      <created>1775770092802</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1775770092802</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Completed Section D task 14 OOP export feature.">
-      <option name="closed" value="true" />
-      <created>1776264121460</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1776264121460</updated>
     </task>
     <task id="LOCAL-00013" summary="added code to read user input.">
       <option name="closed" value="true" />
@@ -512,7 +524,87 @@
       <option name="project" value="LOCAL" />
       <updated>1778322765769</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Added code to demonstrate the import and use of a module.">
+      <option name="closed" value="true" />
+      <created>1778323196001</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1778323196001</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add comments for Section A menu and dataset loading">
+      <option name="closed" value="true" />
+      <created>1780765306207</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1780765306207</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Add comments for view data menu">
+      <option name="closed" value="true" />
+      <created>1780766875530</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1780766875530</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Add comments for visualisation features">
+      <option name="closed" value="true" />
+      <created>1780817773099</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1780817773099</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Add comments for export and summary features">
+      <option name="closed" value="true" />
+      <created>1780819167195</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1780819167195</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Improve code readability and PEP8 formatting">
+      <option name="closed" value="true" />
+      <created>1780820809240</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1780820809240</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Improve code readability and PEP8 formatting">
+      <option name="closed" value="true" />
+      <created>1780914528639</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1780914528639</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Improve review output and date handling">
+      <option name="closed" value="true" />
+      <created>1780915057399</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1780915057399</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Improve usability and data validation">
+      <option name="closed" value="true" />
+      <created>1780915812669</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1780915812669</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Fix monthly rating chart and improve date handling">
+      <option name="closed" value="true" />
+      <created>1780916359756</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1780916359756</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -527,15 +619,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added code to demonstrate the use of comparison operators." />
-    <MESSAGE value="Added code to demonstrateAdded code to demonstrate how a variable can be used as a counter. the use of comparison operators." />
-    <MESSAGE value="Added code to demonstrate the use of a nested decision statement." />
-    <MESSAGE value="Added code to demonstrate the use of multiple nested statements." />
-    <MESSAGE value="Added code to demonstrate the use of a logical or operator." />
-    <MESSAGE value="Added code to demonstrate the use of a logical and operator." />
-    <MESSAGE value="Added code to review the use of decisions, nesting and logical operators." />
-    <MESSAGE value="Added code to demonstrate the use of a simple while loop." />
-    <MESSAGE value="Added code to demonstrate the use of a while loop with a counter." />
     <MESSAGE value="Added code to demonstrate the use of a while loop with ASCII art." />
     <MESSAGE value="Added code to demonstrate the use of a while loop with len function." />
     <MESSAGE value="Added code to demonstrate the use of summing with a while loop." />
@@ -552,7 +635,16 @@
     <MESSAGE value="Added code to demonstrate the use of a user-defined function with multiple parameters." />
     <MESSAGE value="Added code to demonstrate the implementation of multiple user defined functions." />
     <MESSAGE value="Added code to demonstrate the use of return values." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to demonstrate the use of return values." />
+    <MESSAGE value="Added code to demonstrate the import and use of a module." />
+    <MESSAGE value="Add comments for Section A menu and dataset loading" />
+    <MESSAGE value="Add comments for view data menu" />
+    <MESSAGE value="Add comments for visualisation features" />
+    <MESSAGE value="Add comments for export and summary features" />
+    <MESSAGE value="Improve code readability and PEP8 formatting" />
+    <MESSAGE value="Improve review output and date handling" />
+    <MESSAGE value="Improve usability and data validation" />
+    <MESSAGE value="Fix monthly rating chart and improve date handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix monthly rating chart and improve date handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -564,7 +656,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tui.py</url>
-          <line>4</line>
+          <line>5</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -576,6 +668,11 @@
           <url>file://$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_2.py</url>
           <line>10</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
