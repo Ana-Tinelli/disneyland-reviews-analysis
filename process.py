@@ -107,11 +107,20 @@ def get_top_10_locations_by_average_rating(data, park_name):
     # Sort locations by highest average rating.
     for location, ratings in location_ratings.items():
         average_score = sum(ratings) / len(ratings)
-        average_ratings.append((location, average_score))
 
-    average_ratings.sort(key=lambda item: item[1], reverse=True)
+        # Count five-star reviews for tie-breaking.
+        five_star_count = ratings.count(5)
 
-    return average_ratings[:10]
+        average_ratings.append((location, average_score, five_star_count))
+
+    # Sort by average score first,
+    # then by number of five-star reviews.
+    average_ratings.sort(key=lambda item: (item[1], item[2]),reverse=True)
+
+    return [(location, average_score)
+            for location, average_score, five_star_count
+            in average_ratings[:10]
+            ]
 
 # Calculates average ratings for each month of the year.
 def get_monthly_average_ratings_by_park(data, park_name):

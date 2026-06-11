@@ -132,7 +132,7 @@ def display_review_count_result(park_name, reviewer_location, review_count):
 
 # Gets the year from the user.
 def get_year():
-    year = input("\nEnter the year: ")
+    year = input("\nEnter the year (2010-2019): ")
     return year
 
 # Displays the average park rating for a selected year.
