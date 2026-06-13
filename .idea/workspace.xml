@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Fix monthly rating chart and improve date handling">
+    <list default="true" id="e2432ee5-e416-4eb0-910c-83584a6288ef" name="Changes" comment="Improve ranking tie-break logic for locations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/export.py" beforeDir="false" afterPath="$PROJECT_DIR$/export.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/process.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tui.py" beforeDir="false" afterPath="$PROJECT_DIR$/tui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/visual.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +68,7 @@
     "Python.activity_7_survivors_per_age_group.executor": "Run",
     "Python.classes.executor": "Run",
     "Python.dry_chothes.executor": "Run",
-    "Python.export.executor": "Debug",
+    "Python.export.executor": "Run",
     "Python.human.executor": "Run",
     "Python.inhabitant.executor": "Run",
     "Python.lecture.executor": "Run",
@@ -118,7 +123,7 @@
     "Python.test4.executor": "Run",
     "Python.teste.executor": "Run",
     "Python.titanic.executor": "Run",
-    "Python.tui.executor": "Debug",
+    "Python.tui.executor": "Run",
     "Python.universe.executor": "Run",
     "Python.visual.executor": "Debug",
     "Python.week_01.executor": "Run",
@@ -136,6 +141,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/fabri/PycharmProjects/PythonProject/Problem-Solving-through-Python",
     "settings.editor.selected.configurable": "editor.preferences.inline.completion"
   }
 }]]></component>
@@ -162,22 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771849353617</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Added code to demonstrate the use of different data types.&quot;.">
-      <option name="closed" value="true" />
-      <created>1777100954673</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1777100954673</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Added code to display an ASCII robot with dynamic eyes.">
-      <option name="closed" value="true" />
-      <created>1777100981529</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1777100981529</updated>
     </task>
     <task id="LOCAL-00016" summary="move from file">
       <option name="closed" value="true" />
@@ -555,7 +545,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781164840131</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Add validation for park name input">
+      <option name="closed" value="true" />
+      <created>1781168910554</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1781168910554</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Improve ranking tie-break logic for locations">
+      <option name="closed" value="true" />
+      <created>1781177881879</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1781177881879</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -570,8 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added code to demonstrate the use of a while loop with ASCII art." />
-    <MESSAGE value="Added code to demonstrate the use of a while loop with len function." />
     <MESSAGE value="Added code to demonstrate the use of summing with a while loop." />
     <MESSAGE value="Added code to demonstrate the use of a while loop in performing calculations with user input." />
     <MESSAGE value="Added code to demonstrate counting down with a for loop." />
@@ -595,7 +599,9 @@
     <MESSAGE value="Improve review output and date handling" />
     <MESSAGE value="Improve usability and data validation" />
     <MESSAGE value="Fix monthly rating chart and improve date handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix monthly rating chart and improve date handling" />
+    <MESSAGE value="Add validation for park name input" />
+    <MESSAGE value="Improve ranking tie-break logic for locations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve ranking tie-break logic for locations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -619,11 +625,6 @@
           <url>file://$PROJECT_DIR$/university_tasks/week_2/nested_decisions/task_2.py</url>
           <line>10</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

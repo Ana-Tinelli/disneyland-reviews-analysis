@@ -1,15 +1,16 @@
+import csv
+
+
 # Reads the csv file and stores each review row in a list.
 def load_reviews_from_csv(file_name):
     reviews = []
 
     with open(file_name, "r", encoding="utf-8") as file:
-        lines = file.readlines()
+        reader = csv.reader(file)
+        next(reader)
 
-        for line in lines[1:]:
-            line = line.strip()
-
-            if line != "":
-                row = line.split(",")
+        for row in reader:
+            if row:
                 reviews.append(row)
 
     return reviews
@@ -58,10 +59,13 @@ def get_average_score_by_park_and_year(data, park_name, year):
         year_month = review[2].strip()
 
         # Skip rows with missing dates.
-        if year_month.lower() == "missing":
+        if not year_month or year_month.lower() == "missing":
             continue
 
-        rating = int(review[1])
+        try:
+            rating = int(review[1])
+        except (ValueError, IndexError):
+            continue
 
         if park_from_csv == user_park and year_month.startswith(user_year):
             total_score += rating
@@ -94,7 +98,10 @@ def get_top_10_locations_by_average_rating(data, park_name):
     for review in data:
         park_from_csv = review[4].strip().lower()
         location = review[3].strip()
-        rating = int(review[1])
+        try:
+            rating = int(review[1])
+        except (ValueError, IndexError):
+            continue
 
         if park_from_csv == user_park:
             if location in location_ratings:
@@ -161,21 +168,24 @@ def get_monthly_average_ratings_by_park(data, park_name):
         year_month = review[2].strip()
 
         # Skip rows with missing dates.
-        if year_month.lower() == "missing":
+        if not year_month or year_month.lower() == "missing":
             continue
 
-        rating = int(review[1])
+        try:
+            rating = int(review[1])
+        except (ValueError, IndexError):
+            continue
 
         # Collect ratings for the selected park by month.
         if park_from_csv == user_park:
             parts = year_month.split("-")
 
             if len(parts) == 2:
-                 month_number = parts[1].zfill(2)
+                month_number = parts[1].zfill(2)
 
-                 if month_number in month_map:
-                     month_name = month_map[month_number]
-                     month_ratings[month_name].append(rating)
+                if month_number in month_map:
+                    month_name = month_map[month_number]
+                    month_ratings[month_name].append(rating)
 
     monthly_averages = {}
 
@@ -195,7 +205,10 @@ def get_average_score_per_park_by_location(data):
     for review in data:
         park_name = review[4].strip()
         location = review[3].strip()
-        rating = int(review[1])
+        try:
+            rating = int(review[1])
+        except (ValueError, IndexError):
+            continue
 
         # Create a nested dictionary for each park and location.
         if park_name not in park_location_ratings:
@@ -223,7 +236,10 @@ def get_export_data_by_park(data):
 
     for review in data:
         park_name = review[4].strip()
-        rating = int(review[1])
+        try:
+            rating = int(review[1])
+        except (ValueError, IndexError):
+            continue
         country = review[3].strip()
 
         # Create a summary record for each park.

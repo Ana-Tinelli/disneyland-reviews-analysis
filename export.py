@@ -12,6 +12,7 @@ class Exporter(ABC):
     def export(self, file_name):
         pass
 
+
 # Exports park summary data to a text file.
 class TXTExporter(Exporter):
     def export(self, file_name):
@@ -19,16 +20,26 @@ class TXTExporter(Exporter):
         with open(file_name, "w", encoding="utf-8") as file:
             for park in self.data:
                 file.write(f"Park Name: {park['park_name']}\n")
-                file.write(f"Number of Reviews: {park['number_of_reviews']}\n")
+                file.write(
+                    f"Number of Reviews: "
+                    f"{park['number_of_reviews']}\n"
+                )
                 file.write(
                     f"Number of Positive Reviews: "
                     f"{park['number_of_positive_reviews']}\n"
                 )
                 file.write(
-                f"Average Review Score: {park['average_review_score']}\n"
+                    f"Average Review Score: "
+                    f"{park['average_review_score']:.2f}\n"
                 )
-                file.write(f"Number of Countries: {park['number_of_countries']}")
-                file.write("\n")
+                file.write(
+                    f"Number of Countries: "
+                    f"{park['number_of_countries']}\n"
+                )
+
+                # Add separator between parks.
+                file.write("-" * 40 + "\n")
+
 
 # Exports park summary data to a CSV file.
 class CSVExporter(Exporter):
@@ -54,6 +65,7 @@ class CSVExporter(Exporter):
                     park["average_review_score"],
                     park["number_of_countries"]
                 ])
+
 
 # Exports park summary data to a JSON file.
 class JSONExporter(Exporter):

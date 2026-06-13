@@ -2,13 +2,15 @@ import tui
 import process
 import visual
 import export
+from pathlib import Path
 
 # Runs main program from title screen to menu loop.
 def main():
     tui.display_title()
 
     # Load the CSV data once when starts the program.
-    reviews = process.load_reviews_from_csv("disneyland_reviews.csv")
+    csv_path = Path(__file__).parent / "data" / "disneyland_reviews.csv"
+    reviews = process.load_reviews_from_csv(csv_path)
 
     # Confirm dataset loading and shows the row count.
     tui.display_dataset_loaded_message(len(reviews))
@@ -74,28 +76,30 @@ def main():
             # Prepare the summary data used by all export formats.
             export_data = process.get_export_data_by_park(reviews)
 
-            # Export the data as a text file.
-            if export_choice == "A":
-                txt_exporter = export.TXTExporter(export_data)
-                txt_exporter.export("park_export.txt")
-                tui.display_export_success_message("park_export.txt")
+            # Export the data.
+            export_options = {
+                "A": (export.TXTExporter, "park_export.txt"),
+                "B": (export.CSVExporter, "park_export.csv"),
+                "C": (export.JSONExporter, "park_export.json"),
+            }
 
-            # Export the data as a CSV file.
-            elif export_choice == "B":
-                csv_exporter = export.CSVExporter(export_data)
-                csv_exporter.export("park_export.csv")
-                tui.display_export_success_message("park_export.csv")
+            if export_choice in export_options:
+                exporter_class, file_name = export_options[export_choice]
 
-            # Export the data as a JSON file.
-            elif export_choice == "C":
-                json_exporter = export.JSONExporter(export_data)
-                json_exporter.export("park_export.json")
-                tui.display_export_success_message("park_export.json")
+                try:
+                    exporter = exporter_class(export_data)
+                    exporter.export(file_name)
+                    tui.display_export_success_message(file_name)
+
+                except OSError as error:
+                    print(f"\nExport failed: {error}")
+
+            else:
+                print("\nInvalid export choice.")
 
         # Exit the menu loop and end the program.
         elif user_choice == "X":
             break
-
 
 
 if __name__ == "__main__":
