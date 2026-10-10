@@ -36,6 +36,12 @@ An academic Python project exploring 42,652 reviews across Disneyland California
 
 California has the highest average rating in this dataset. The review counts and ratings describe the available sample and should not be treated as representative measures of all park visitors.
 
+## Visual overview
+
+![Review counts and average ratings across the three Disneyland parks](images/portfolio_park_comparison.png)
+
+Review volume and average rating are shown together to provide context for the comparison.
+
 ## Validation
 
 Portfolio preparation checks included:
@@ -64,9 +70,14 @@ I developed the modular Python application, data-processing functions, visualisa
 
 The source dataset is not included in the portfolio evidence package. Reproducing the application requires a compatible CSV file.
 
-## Repository status
+## Repository contents
 
-The existing Python code and commit history are retained. Selected charts, aggregate results and setup documentation will be added during portfolio preparation.
+- Python modules: original application code.
+- `images/`: original charts and a portfolio comparison chart.
+- `results/`: aggregate summaries in TXT, CSV and JSON, location rankings with sample counts, and a verification record.
+- `requirements.txt`: Python dependencies.
+
+The original application code and commit history are retained. Setup instructions will be completed after confirming the dataset path used by the repository code.
 
 ## AI assistance
 
