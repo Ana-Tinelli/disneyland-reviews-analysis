@@ -1,0 +1,23 @@
+[
+    {
+        "park_name": "Disneyland_HongKong",
+        "number_of_reviews": 9617,
+        "number_of_positive_reviews": 7744,
+        "average_review_score": 4.2,
+        "number_of_countries": 115
+    },
+    {
+        "park_name": "Disneyland_California",
+        "number_of_reviews": 19406,
+        "number_of_positive_reviews": 16499,
+        "average_review_score": 4.41,
+        "number_of_countries": 111
+    },
+    {
+        "park_name": "Disneyland_Paris",
+        "number_of_reviews": 13629,
+        "number_of_positive_reviews": 9674,
+        "average_review_score": 3.96,
+        "number_of_countries": 132
+    }
+]

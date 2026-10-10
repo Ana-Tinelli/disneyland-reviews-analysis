@@ -1,0 +1,49 @@
+{
+  "row_count": 42652,
+  "missing_dates": 2613,
+  "duplicate_csv_copies_identical": true,
+  "source_modules_syntax_valid": true,
+  "summary_checks": {
+    "Disneyland_HongKong": {
+      "count": 9617,
+      "average": 4.204117708225018,
+      "positive_fraction": 0.805240719559114
+    },
+    "Disneyland_California": {
+      "count": 19406,
+      "average": 4.405338555086056,
+      "positive_fraction": 0.8502009687725446
+    },
+    "Disneyland_Paris": {
+      "count": 13629,
+      "average": 3.9600117396727565,
+      "positive_fraction": 0.7098099640472522
+    }
+  },
+  "menu_routes": [
+    "view_park",
+    "view_location_count",
+    "view_year",
+    "view_location_averages",
+    "plot_counts",
+    "plot_locations",
+    "plot_months",
+    "export_txt",
+    "export_csv",
+    "export_json",
+    "invalid_main_then_exit"
+  ],
+  "visual_functions": [
+    "review_counts",
+    "top_locations",
+    "monthly_ratings"
+  ],
+  "exports": "TXT contents checked; CSV and JSON values read back and checked",
+  "limitations": [
+    "Reviewer location is not nationality",
+    "Monthly results pool years and measure ratings, not visitation/popularity",
+    "Top locations have no minimum sample threshold",
+    "No-data months return zero in original function; they should be displayed as missing in a future adaptation",
+    "Dataset source and redistribution permissions remain to be confirmed"
+  ]
+}
